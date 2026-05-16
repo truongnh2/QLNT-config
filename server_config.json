@@ -11,7 +11,7 @@
       "description": "Staging server"
     },
     "production": {
-      "baseUrl": "https://api.qlnt.example.com/api/v1",
+      "baseUrl": "https://rental.io.vn/api/v1",
       "description": "Production server"
     }
   },
