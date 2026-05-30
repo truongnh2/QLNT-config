@@ -3,11 +3,11 @@
   "description": "QLNT Server Configuration - Shared config for Client (Flutter) and Server (Spring Boot)",
   "environments": {
     "development": {
-      "baseUrl": "http://10.0.2.2:8081/api/v1",
-      "description": "Android Emulator → host machine (port 8081)"
+      "baseUrl": "http://10.0.2.2:8080/api/v1",
+      "description": "Android Emulator → host machine (port 8080)"
     },
     "staging": {
-      "baseUrl": "https://staging.qlnt.example.com/api/v1",
+      "baseUrl": "http://10.0.2.2:8081/api/v1",
       "description": "Staging server"
     },
     "production": {
